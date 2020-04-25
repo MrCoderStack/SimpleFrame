@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.mrcoder.frameservice.mapper.UserMapper">
+
+    <sql id="Base_Column_List">
+      id,name,nick_name,age,email,phone,status
+    </sql>
+
+    <!-- 查询用户列表总数 -->
+    <select id="countUserList" parameterType="com.mrcoder.framecommon.model.QueryBase" resultType="int">
+        select count(1) from frame_user
+        <where>
+            status != 3
+            <if test="name != null">
+                and name like concat('%',#{name},'%')
+            </if>
+            <if test="mobile != null">
+                and mobile like concat('%',#{mobile},'%')
+            </if>
+            <if test="status != null">
+                and status = #{status}
+            </if>
+        </where>
+    </select>
+
+    <!-- 分页查询用户列表 -->
+    <select id="queryUserList" parameterType="com.mrcoder.framecommon.model.QueryBase"
+            resultType="com.mrcoder.frameservice.model.po.User">
+        select
+        <include refid="Base_Column_List"/>
+        from frame_user
+        <where>
+            status != 3
+            <if test="name != null">
+                and name like concat('%',#{name},'%')
+            </if>
+            <if test="mobile != null">
+                and mobile like concat('%',#{mobile},'%')
+            </if>
+            <if test="status != null">
+                and status = #{status}
+            </if>
+        </where>
+        order by id desc limit #{limit} offset #{offset}
+    </select>
+</mapper>
+
