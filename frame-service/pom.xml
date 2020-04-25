@@ -51,12 +51,6 @@
             <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
 
-        <!-- prometheus监控 -->
-        <dependency>
-            <groupId>io.micrometer</groupId>
-            <artifactId>micrometer-registry-prometheus</artifactId>
-        </dependency>
-
         <!-- 分布式定时任务 -->
         <dependency>
             <groupId>net.javacrumbs.shedlock</groupId>
