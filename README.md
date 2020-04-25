@@ -17,6 +17,12 @@ SpringBoot Bussiness Frame
 # 项目简单介绍
 
 
+![Spring Boot 2.1.4.RELEASE](https://img.shields.io/badge/Spring%20Boot-2.1.3.RELEASE-brightgreen.svg)
+![Mysql 5.6](https://img.shields.io/badge/Mysql-5.6-blue.svg)
+![JDK 1.8](https://img.shields.io/badge/JDK-1.8-brightgreen.svg)
+![Maven](https://img.shields.io/badge/Maven-3.6.0-yellowgreen.svg)
+![license](https://img.shields.io/badge/license-MPL--2.0-blue.svg)  
+
 
 ## 项目结构
 
@@ -40,20 +46,20 @@ frame-service 业务模块，真正可运行的业务模块，引入了frame-com
 
 本项目引入了很多常用的依赖，组件，如：
 
-redis
-druid
-swagger
-通用mapper
-mybatis
-lombok
-aop切面
-aliyun-sdk-oss
-easyexcel
-flyway数据库更新管理
+- redis
+- druid
+- swagger
+- 通用mapper
+- mybatis
+- lombok
+- aop切面
+- aliyun-sdk-oss
+- easyexcel
+- flyway数据库更新管理
 
-…………
+- …………
 
-等等
+- 等等
 
 更多细节请查看pom.xml，不满足的自行集成
 
@@ -64,23 +70,23 @@ flyway数据库更新管理
 
 同时本项目，实现了大多项目的通用需求，如：
 
-权限认证
-接口自动文档
-数据库监控
-防重复提交
-Excel导入导出（反射实体）
-分布式定时任务
-数据验证
-全局异常/业务异常捕获处理
-通用分页
-分布式全局唯一ID生成（雪花算法）
-通用redis工具类
-全局请求拦截器处理
-mybatis生成实体/mapper工具
+- 权限认证
+- 接口自动文档
+- 数据库监控
+- 防重复提交
+- Excel导入导出（反射实体）
+- 分布式定时任务
+- 数据验证
+- 全局异常/业务异常捕获处理
+- 通用分页
+- 分布式全局唯一ID生成（雪花算法）
+- 通用redis工具类
+- 全局请求拦截器处理
+- mybatis生成实体/mapper工具
 
-…………
+- …………
 
-等等
+- 等等
 
 
 
@@ -103,6 +109,8 @@ https://github.com/MrCoderStack/SpringBootDemo.git
 作者的成长过程，我相信适合大多数的朋友～
 
 另外，作者还有个SpringBoot的多模块项目框架，
+
+https://github.com/MrCoderStack/SpringBootFrame
 
 当然了，那个框架现在看来，其实不大实用，
 
