@@ -13,8 +13,8 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="frame-common" options="-parameters" />
-      <module name="frame-service" options="-parameters" />
+      <module name="frame-common" options="" />
+      <module name="frame-service" options="" />
     </option>
   </component>
 </project>

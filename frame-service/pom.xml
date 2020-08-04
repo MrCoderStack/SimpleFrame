@@ -67,6 +67,7 @@
         <dependency>
             <groupId>org.flywaydb</groupId>
             <artifactId>flyway-core</artifactId>
+            <version>5.2.4</version>
         </dependency>
 
         <dependency>
@@ -80,6 +81,20 @@
             <version>5.6.0-M1</version>
             <scope>test</scope>
         </dependency>
+
+
+
+        <!--&lt;!&ndash;Nacos服务注册/发现依赖 &ndash;&gt;-->
+        <!--<dependency>-->
+            <!--<groupId>com.alibaba.cloud</groupId>-->
+            <!--<artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>-->
+        <!--</dependency>-->
+        <!--&lt;!&ndash;Nacos配置中心 &ndash;&gt;-->
+        <!--<dependency>-->
+            <!--<groupId>com.alibaba.cloud</groupId>-->
+            <!--<artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>-->
+        <!--</dependency>-->
+
     </dependencies>
 
     <build>
