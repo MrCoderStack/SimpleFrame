@@ -24,6 +24,11 @@ SpringBoot Bussiness Frame
 ![license](https://img.shields.io/badge/license-MPL--2.0-blue.svg)  
 
 
+## 更新日志
+20200804  更新springboot版本：2.1.4 ===> 2.2.6
+          同步调整flyway版本至 5.2.4
+
+
 ## 项目结构
 
 
