@@ -33,7 +33,7 @@
         <mysql.connector.java.version>5.1.44</mysql.connector.java.version>
         <springfox-swagger2>2.9.2</springfox-swagger2>
         <tk.mybatis.version>2.1.5</tk.mybatis.version>
-        <poi.version>3.17</poi.version>
+        <poi.version>4.1.1</poi.version>
         <spring-cloud.version>Hoxton.SR4</spring-cloud.version>
         <spring-boot.version>2.2.6.RELEASE</spring-boot.version>
         <spring-cloud-alibaba-version>2.2.1.RELEASE</spring-cloud-alibaba-version>
